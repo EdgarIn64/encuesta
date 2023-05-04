@@ -1,0 +1,97 @@
+body {
+	font-family: Calibri;
+}
+
+.tarjeta {
+	padding: 0px 20px 20px 20px;
+	background: radial-gradient(circle, rgba(238,238,238,0.8) 0%, rgba(227,227,227,0.8) 100%);
+	border: 1px solid black;
+	border-radius: 15px;
+	margin: 15px 0px;
+}
+
+.tarjeta label {
+	color: black;
+	text-shadow: 1px 1px 1px gray;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+
+}
+
+/* Add some content at the bottom of the video/page 
+*/
+.content {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 3% 10%;
+}
+
+h1, h2, h3 {
+	text-align: center;
+	color: #f7f7f7;
+	text-shadow: 3px 3px 3px black;	
+	padding-top: 30px;
+}
+
+canvas {
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+	background: #f7f7f7;
+    border: 2px solid #c3c3c3;
+}
+
+.firmaMensaje {
+	position: absolute;
+	top: 210px;
+	left: 0;
+}
+
+.protegido, .en{
+	display: none;
+}
+
+form .titulo {
+	text-align: center;
+	margin: 10px;
+}
+
+input {
+	display: block;
+	padding: 4px;
+	background: #f7f7f7;
+}
+
+select {
+	height: 39px;
+	cursor: pointer;
+}
+
+input, label {
+	font-size: 1.3rem;
+	width: 100%;
+}
+
+label {
+	margin-top: 28px;
+	color: #f7f7f7;
+	text-shadow: 2px 2px 2px black;	
+	text-align: left;
+}
+
+input[type='submit'] {
+	margin-top: 20px;
+	display: block;
+	padding: 7px;
+	font-size: 1.5rem;
+	border-radius: 20px;
+}
